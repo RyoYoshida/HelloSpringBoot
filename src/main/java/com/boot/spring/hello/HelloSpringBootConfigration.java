@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "myconfig.properties")
 public class HelloSpringBootConfigration {
 	private String name;
-	private String pass;
 
 	public String getName() {
 		return name;
@@ -16,6 +15,8 @@ public class HelloSpringBootConfigration {
 	public void setName(String value) {
 		name = value;
 	}
+
+	private String pass;
 
 	public String getPass() {
 		return pass;
