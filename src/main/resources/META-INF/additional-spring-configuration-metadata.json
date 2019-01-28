@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "myconfig.properties.name",
+    "type": "java.lang.String",
+    "description": "A description for 'myconfig.properties.name'"
+  },
+  {
+    "name": "myconfig.properties.pass",
+    "type": "java.lang.String",
+    "description": "A description for 'myconfig.properties.pass'"
+  }
+]}
